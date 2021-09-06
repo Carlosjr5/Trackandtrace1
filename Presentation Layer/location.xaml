@@ -1,0 +1,14 @@
+﻿<Window x:Name="location2" x:Class="Trackandtrace1.location"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Trackandtrace1"
+        mc:Ignorable="d"
+        Title="Add Location" Height="293.86" Width="653.509">
+    <Grid x:Name="location1">
+        <Button x:Name="ok_button" Content="OK" HorizontalAlignment="Left" Margin="471,182,0,0" VerticalAlignment="Top" Width="75" FontSize="14" Click="Ok_button_Click"/>
+        <TextBlock x:Name="location_textblock" HorizontalAlignment="Left" Margin="192,47,0,0" TextWrapping="Wrap" Text="Enter the location visited:" VerticalAlignment="Top" RenderTransformOrigin="3.592,-4.319" FontSize="18"/>
+        <TextBox x:Name="Location_input" HorizontalAlignment="Left" Height="23" Margin="130,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="354" FontSize="16"/>
+    </Grid>
+</Window>

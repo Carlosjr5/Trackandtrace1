@@ -1,0 +1,9 @@
+﻿<Application x:Class="Trackandtrace1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Trackandtrace1"
+             StartupUri="Presentation Layer/MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

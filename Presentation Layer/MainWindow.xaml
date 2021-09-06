@@ -1,0 +1,21 @@
+﻿<Window x:Class="Trackandtrace1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Trackandtrace1"
+        mc:Ignorable="d"
+        Title="Track&amp;Trace" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="add_individual" Content="Add an individual" HorizontalAlignment="Left" Margin="299,129,0,0" VerticalAlignment="Top" Width="134" Height="35" Click="Add_individual_Click" FontSize="16"/>
+        <Button x:Name="location_button" Content="Enter a location" HorizontalAlignment="Left" Margin="299,191,0,0" VerticalAlignment="Top" Width="134" Height="32" Click="Location_button_Click" FontSize="16" RenderTransformOrigin="0.666,0.524"/>
+        <Button x:Name="visit_btn" Content="Add Visits" HorizontalAlignment="Left" Margin="299,248,0,0" VerticalAlignment="Top" Width="134" FontSize="16" Height="32" Click="Visit_btn_Click"/>
+        <Button x:Name="contact_btn" Content="Contact with other user." HorizontalAlignment="Left" Margin="276,311,0,0" VerticalAlignment="Top" Width="184" FontSize="16" Height="35" Click="Contact_btn_Click"/>
+        <Label x:Name="welcome_lbl" Content="Welcome to Track&amp;Trace." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="206,43,0,0" FontSize="36" Height="59" Width="440" FontStyle="Italic">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+    </Grid>
+</Window>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="Trackandtrace1.visit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Trackandtrace1"
+        mc:Ignorable="d"
+        Title="Track Visit" Height="297.638" Width="641.732">
+    <Grid>
+        <Label x:Name="visit_label" Content="Where have you visit?:" HorizontalAlignment="Left" Margin="87,89,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="visit_input" HorizontalAlignment="Left" Height="34" Margin="291,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239" FontSize="16"/>
+        <Button x:Name="ok_btn" Content="OK" HorizontalAlignment="Left" Margin="471,216,0,0" VerticalAlignment="Top" Width="75" Click="Ok_btn_Click" Height="30"/>
+        <DatePicker x:Name="datepick" HorizontalAlignment="Left" Margin="291,162,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="date_lbl" Content="Which date?:" HorizontalAlignment="Left" Margin="162,155,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="phone_lbl" Content="Enter user phone number:" HorizontalAlignment="Left" Margin="58,20,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="phone_input" HorizontalAlignment="Left" Height="33" Margin="291,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="239" FontSize="16"/>
+        <Label x:Name="timelbl" Content="Time:" HorizontalAlignment="Left" Margin="221,194,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="__" Content=":" HorizontalAlignment="Left" Margin="343,194,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="hour_input" HorizontalAlignment="Left" Height="23" Margin="285,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="58" FontSize="14"/>
+        <TextBox x:Name="min_input" HorizontalAlignment="Left" Height="23" Margin="359,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59" FontSize="14"/>
+
+    </Grid>
+</Window>
